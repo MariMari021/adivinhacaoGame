@@ -5,3 +5,71 @@
     box-sizing: border-box;
 }
 
+/*FONTES*/
+@font-face {
+    font-family: 'Poppins';
+    src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Poppins-Semi';
+    src: url(Poppins-SemiBold.ttf);
+}
+/* FIM FONTES */
+
+body {
+    background-color: #300d4d; 
+    font-family: 'Poppins', sans-serif; 
+}
+
+.caixa {
+    background-color: #fff; 
+    max-width: 700px; 
+    margin: 0 auto; 
+    padding: 77px;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px #0000001a; 
+    text-align: center;
+    margin-top: 170px;
+    box-shadow: 0px 7px 7px 1px  #f5cbfe ;
+}
+
+h1 {
+    color: #8a2be2; 
+}
+
+button {
+    background-color: #8a2be2; 
+    color: #fff;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #661cac;
+    color: #fff;
+}
+
+button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed; 
+}
+
+p {
+    color: #333;
+    font-family: 'Poppins', sans-serif; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.texto {
+    padding: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    width: 80%;
+    font-family: 'Poppins', sans-serif; 
+}
